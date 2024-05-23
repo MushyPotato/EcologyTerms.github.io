@@ -1,0 +1,47 @@
+body {
+    min-height: 100vh;
+    margin: 0;
+    margin-left: 40px;
+    background-image: linear-gradient(120deg, rgb(185, 250, 255), rgb(190, 235, 95));
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+    color: rgb(0, 50, 77);
+    overflow: hidden;
+}
+
+#waterfall {
+    opacity: 0.8;
+    transform: scaleX(-1);
+    position: absolute;
+    right: -1px;
+    bottom: -1px;
+    width: var(--size);
+    height: var(--size);
+    -webkit-clip-path: polygon(0 -20vw, var(--size) var(--size), 0 var(--size), 0 0);
+    clip-path: polygon(0 -20vw, var(--size) var(--size), 0 var(--size), 0 0);
+}
+
+.link {
+    color: rgb(0, 60, 93);
+    text-decoration: solid;
+    transition: font-size 0.5s ease;
+}
+
+.link:hover {
+    color: rgb(0, 127, 112);
+    text-decoration: underline;
+    font-size: 31px;
+    
+}
+
+li {
+    margin-bottom: 30px;
+    transition: margin-bottom 0.5s ease;
+}
+
+:root {
+    --size: 65vw;
+}

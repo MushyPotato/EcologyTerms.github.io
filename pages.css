@@ -1,0 +1,34 @@
+body {
+    min-height: 100vh;
+    margin: 0;
+    margin-left: 40px;
+    background-image: linear-gradient(120deg, rgb(191, 242, 167), rgb(185, 250, 255), rgb(185, 250, 255));
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 15px;
+    color: rgb(0, 50, 77);
+    overflow: hidden;
+}
+
+p {
+    font-size: 25px;
+    width: 50vw;
+}
+
+#waterfall {
+    opacity: 0.9;
+    transform: scaleX(-1);
+    position: absolute;
+    right: -1px;
+    bottom: -1px;
+    width: var(--size);
+    height: var(--size);
+    -webkit-clip-path: polygon(0 -20vw, var(--size) var(--size), 0 var(--size), 0 0);
+    clip-path: polygon(0 -20vw, var(--size) var(--size), 0 var(--size), 0 0);
+}
+
+:root {
+    --size: 65vw;
+}
