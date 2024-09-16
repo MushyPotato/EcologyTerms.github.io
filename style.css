@@ -2,7 +2,7 @@ body {
     min-height: 100vh;
     margin: 0;
     margin-left: 40px;
-    background-image: linear-gradient(120deg, rgb(201, 150, 123), rgb(190, 235, 95));
+    background-image: linear-gradient(120deg, rgb(190, 235, 95), rgb(152, 250, 237));
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
