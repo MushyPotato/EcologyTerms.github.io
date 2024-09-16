@@ -1,4 +1,4 @@
-h1 {
+rh1 {
     font-size: 40px;
 }
 
@@ -20,7 +20,7 @@ p {
     width: 50vw;
 }
 
-#waterfall {
+#image {
     opacity: 0.9;
     transform: scaleX(-1);
     position: absolute;
