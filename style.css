@@ -7,21 +7,9 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 30px;
+    font-size: 5%;
     color: rgb(0, 50, 77);
     overflow: hidden;
-}
-
-#waterfall {
-    opacity: 0.8;
-    transform: scaleX(-1);
-    position: absolute;
-    right: -1px;
-    bottom: -1px;
-    width: var(--size);
-    height: var(--size);
-    -webkit-clip-path: polygon(0 -20vw, var(--size) var(--size), 0 var(--size), 0 0);
-    clip-path: polygon(0 -20vw, var(--size) var(--size), 0 var(--size), 0 0);
 }
 
 .link {
